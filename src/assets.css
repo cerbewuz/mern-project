@@ -1,0 +1,42 @@
+:root {
+    --dark-blue: rgb(7, 25, 82);
+    --teal: rgb(11, 102, 106);
+    --light-teal: rgb(53, 162, 159);
+    --light-cyan: rgb(151, 254, 237);
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--light-cyan);
+    color: var(--dark-blue);
+  }
+  
+  .header, .footer {
+    background-color: var(--teal);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .blog-post {
+    background-color: white;
+    border: 1px solid var(--light-teal);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  .blog-post h2 {
+    color: var(--dark-blue);
+  }
+  
+  .blog-post p {
+    color: var(--teal);
+  }
+  
+  .blog-list {
+    padding: 2rem;
+  }
+  
